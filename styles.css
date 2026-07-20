@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Mooligat";
+    src: url("./fonts/Mooligat_Demo.otf");
+}
+
+body {
+  background-image: url("./wallpapers/limitless_cloud_blue.jpg");
+}
+
+h1 {
+  font-family: "Mooligat";
+  text-align: center;
+  filter: drop-shadow(0.2em 0.2em 0.3em #000);
+  font-size: 3em;
+  color: #f5c242;
+}
+
+h2 {
+  text-align: center;
+  color: #f5c242;
+  filter: drop-shadow(0.2em 0.2em 0.3em #000);
+}
+
+div#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#links>a {
+  text-align: center;
+  font-size: 1.1em;
+  background-color: #000;
+  color: #f00;
+  border: 1em solid #fff;
+  padding: 1em;
+  margin: 5em;
+  filter: drop-shadow(0.2em 0.2em 0.3em #000);
+}
+
+div#links>a:hover {
+  border-color: #ccc;
+}
